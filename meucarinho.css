@@ -1,0 +1,400 @@
+:root {
+  --green: rgba(67, 211, 118, 255);
+}
+/*
+font-family: 'Nanum Myeongjo', serif;
+font-family: 'Oxygen', sans-serif;
+font-family: 'Oxygen Mono', monospace;
+font-family: 'Playfair Display', serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Rufina', serif;
+*/
+p {
+  font-family: "Oxygen", sans-serif;
+}
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Rufina", serif;
+  color: black;
+}
+#back-left {
+  background-image: url("http://127.0.0.1:5500/carrinho-back.svg");
+  background-repeat: no-repeat;
+  width: 40%;
+  height: 510px;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  background-size: cover;
+  margin-top: 4%;
+}
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 2%;
+  background-color: rgba(246, 246, 246, 255);
+}
+#header-right {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  font-family: "Oxygen", sans-serif;
+}
+#sublime-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 5%;
+  background-color: rgba(246, 246, 246, 255);
+}
+#sublime-txt {
+  padding-right: 8%;
+  width: 35%;
+  height: 100px;
+}
+#img-sublime {
+  display: flex;
+  flex-direction: column;
+  left: 24%;
+  position: absolute;
+  width: 30%;
+}
+#author {
+  display: flex;
+  flex-direction: row;
+}
+#characteristics {
+  width: 40%;
+}
+.characteristics-list {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+.characteristics-left {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  font-family: "Oxygen", sans-serif;
+}
+.characteristics-right {
+  font-family: "Oxygen", sans-serif;
+  opacity: 30%;
+  text-align: start;
+  margin: 0;
+  padding: 0;
+  width: 50%;
+}
+hr {
+  background-color: #00d276;
+  height: 1px;
+  padding: 0;
+  margin: 0;
+  opacity: 30%;
+}
+#book-title {
+  font-family: "Rufina", serif;
+  font-size: 82px;
+  font-weight: 700;
+  line-height: 101px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 0;
+  margin-bottom: 1%;
+}
+#author {
+  margin-top: 0;
+}
+#autora {
+  font-family: "Oxygen", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin: 0;
+}
+#gray-txt {
+  font-family: Oxygen;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+  opacity: 50%;
+  padding-left: 2%;
+  margin: 0;
+}
+#price {
+  font-family: "Oxygen", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #00d276;
+  margin: 15px 0 15px 0;
+}
+#buttons {
+  display: flex;
+  flex-direction: row;
+}
+#green-background {
+  width: 175px;
+  height: 75px;
+  border: none;
+  border-radius: 12px;
+  background-color: #00d276;
+  color: white;
+  font-family: "Oxygen", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: center;
+  padding-right: 2%;
+}
+#green-letters {
+  width: 257px;
+  height: 75px;
+  border-radius: 12px;
+  border: 1px solid #00d276;
+  font-family: "Oxygen", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #00d276;
+  margin-left: 5%;
+}
+#section2 {
+  display: flex;
+  flex-direction: row;
+  padding: 5% 5% 0 5%;
+}
+#section2-text {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+#sinopse {
+  padding-left: 4%;
+}
+#girl-reading {
+  padding-top: 5%;
+  width: 50%;
+}
+#sinopse p {
+  font-family: "Oxygen", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  opacity: 50%;
+  margin-bottom: 0;
+}
+#sinopse h2 {
+  font-family: "Rufina", serif;
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 52px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 0;
+}
+.sinopse-p {
+  font-family: "Oxygen", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+  opacity: 50%;
+}
+.sinopse-title {
+  font-family: "Oxygen", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #00d276;
+}
+.name-date h2 {
+  font-family: "Oxygen", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  margin-bottom: 0;
+}
+.name-date p {
+  font-family: "Oxygen", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  margin-top: 0;
+  opacity: 50%;
+}
+#section3 {
+  display: flex;
+  flex-direction: row;
+  background: linear-gradient(white 50%, rgba(246, 246, 246, 255) 50%);
+  align-items: center;
+}
+#section3-text {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+#girl-section3 {
+  width: 50%;
+}
+#section3-txt {
+  width: 80%;
+  padding-right: 10%;
+}
+#section4 {
+  background-color: rgba(246, 246, 246, 255);
+  padding-bottom: 8%;
+}
+#books-offers2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.books-selection {
+  display: flex;
+  flex-direction: row;
+  box-shadow: 2px 5px 5px 5px #d7d4d4;
+  border-radius: 10px;
+  width: 25%;
+  margin: 1%;
+  background-color: white;
+}
+.offers-title {
+  width: 75%;
+  font-weight: 200;
+  font-size: 1.4rem;
+  font-family: "Rufina", serif;
+}
+.offers-price {
+  color: #202020;
+  opacity: 50%;
+  font-family: "Oxygen", sans-serif;
+}
+.offers-txt {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-left: 2%;
+}
+.offers-link {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: var(--green);
+  padding-right: 2%;
+  font-family: "Oxygen", sans-serif;
+}
+i {
+  padding-left: 20px;
+}
+#books-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#books-title p {
+  color: #202020;
+  opacity: 50%;
+  padding: 0;
+  margin: 0;
+  font-family: "Oxygen", sans-serif;
+}
+#books-title h2 {
+  padding-top: 0;
+  margin-top: 0;
+  font-weight: 480;
+  font-size: 3.5rem;
+  font-family: "Rufina", serif;
+}
+footer {
+  background-color: white;
+  background-image: url("http://127.0.0.1:5500/green-footer.svg");
+  background-repeat: no-repeat;
+  justify-content: end;
+  width: 100%;
+  background-position: right;
+  height: 269.76px;
+  top: 39.85px;
+  left: 2179.11px;
+}
+#footer {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: flex-start;
+}
+#footer1 {
+  padding: 0 5% 0 5%;
+}
+
+#footer2 {
+  padding: 0 5% 0 5%;
+}
+#footer2 h2 {
+  font-family: Oxygen;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+#footer2 p {
+  color: #202020;
+  opacity: 70%;
+  font-family: Oxygen;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin: 0;
+}
+
+#footer3 {
+  padding: 0 5% 0 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: end;
+}
+#footer3 h2 {
+  font-family: Oxygen;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+#footer-logo {
+  padding-top: 20%;
+}
+#social-links i {
+  color: #00d276;
+}

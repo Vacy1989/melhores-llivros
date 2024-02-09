@@ -1,0 +1,324 @@
+:root {
+  --green: rgba(67, 211, 118, 255);
+}
+/*
+font-family: 'Nanum Myeongjo', serif;
+font-family: 'Oxygen', sans-serif;
+font-family: 'Oxygen Mono', monospace;
+font-family: 'Playfair Display', serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Rufina', serif;
+*/
+p {
+  font-family: "Oxygen", sans-serif;
+}
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Rufina", serif;
+  color: black;
+}
+body {
+  background-color: rgba(246, 246, 246, 255);
+}
+#header-logo {
+  margin-right: 400px;
+}
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 2%;
+  background-color: rgba(246, 246, 246, 255);
+}
+#header-right {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  font-family: "Oxygen", sans-serif;
+  margin-right: 50px;
+}
+#pedido {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 5%;
+  margin-top: 10%;
+}
+#pedido-left {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding-left: 5%;
+}
+#img-carts {
+  display: flex;
+  position: relative;
+}
+#cart {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+}
+#cart-txt {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 5%;
+}
+#pedido-left-top {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+#fin {
+  font-family: "Rufina", serif;
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 52px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 3%;
+}
+#fin-txt {
+  font-family: "Oxygen", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+  opacity: 50%;
+  width: 70%;
+}
+.titles {
+  font-family: "Rufina", serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.btn-txt {
+  font-family: "Oxygen", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  opacity: 30%;
+}
+button {
+  margin-bottom: 20px;
+  padding-left: 20px;
+}
+.big-btn {
+  width: 483px;
+  height: 62px;
+  border-radius: 12px;
+  background-color: white;
+  border: none;
+  box-shadow: 10px 10px 30px 0px #0000001a;
+}
+.medium-btn {
+  width: 278px;
+  height: 62px;
+  border-radius: 12px;
+  box-shadow: 10px 10px 30px 0px #0000001a;
+  background-color: white;
+  border: none;
+}
+.small-btn {
+  width: 175px;
+  height: 62px;
+  border-radius: 12px;
+  box-shadow: 10px 10px 30px 0px #0000001a;
+  background-color: white;
+  border: none;
+  margin-left: 22px;
+}
+.numero-btn {
+  width: 175px;
+  height: 62px;
+  border-radius: 12px;
+  box-shadow: 10px 10px 30px 0px #0000001a;
+  background-color: white;
+  border: none;
+  margin-right: 22px;
+}
+#finalizar {
+  width: 279px;
+  height: 75px;
+  border-radius: 12px;
+  box-shadow: 10px 10px 30px 0px #00d27640;
+  background: #00d276;
+  border: none;
+  color: white;
+  font-family: "Oxygen", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.title-cart {
+  font-family: "Oxygen", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.title-price {
+  display: flex;
+  flex-direction: column;
+}
+.price {
+  font-family: "Oxygen", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  opacity: 50%;
+}
+.qtd {
+  font-family: "Oxygen", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  opacity: 50%;
+  padding-right: 5px;
+}
+.x-marks i {
+  width: 20px;
+  height: 10px;
+}
+#titles {
+  font-family: "Rufina", serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.books-quantity {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid #e5e4e2;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+.books-left {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.quantity-arrow {
+  display: flex;
+  flex-direction: row;
+}
+.x-marks {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  padding-bottom: 30px;
+}
+#pedido-right {
+  background-color: white;
+  height: 800px;
+  padding: 0 5% 0 5%;
+  border-radius: 9px;
+  box-shadow: 10px 10px 30px 0px #0000001a;
+}
+.left-valor {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.valor-gray {
+  font-family: "Oxygen", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  opacity: 50%;
+  margin-bottom: 0;
+}
+.valor-black {
+  font-family: "Oxygen", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.mini-img {
+}
+footer {
+  background-color: white;
+  background-image: url("http://127.0.0.1:5500/green-footer.svg");
+  background-repeat: no-repeat;
+  justify-content: end;
+  width: 100%;
+  background-position: right;
+  height: 269.76px;
+  top: 39.85px;
+  left: 2179.11px;
+}
+#footer {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: flex-start;
+}
+#footer1 {
+  padding: 0 5% 0 5%;
+}
+
+#footer2 {
+  padding: 0 5% 0 5%;
+}
+#footer2 h2 {
+  font-family: Oxygen;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+#footer2 p {
+  color: #202020;
+  opacity: 70%;
+  font-family: Oxygen;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin: 0;
+}
+
+#footer3 {
+  padding: 0 5% 0 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: end;
+}
+#footer3 h2 {
+  font-family: Oxygen;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+#footer-logo {
+  padding-top: 20%;
+}
+#social-links i {
+  color: #00d276;
+}

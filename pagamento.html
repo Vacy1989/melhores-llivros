@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<head>
+  <link href="pagamento.css" rel="stylesheet" />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+  />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
+  />
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&family=Oxygen&family=Oxygen+Mono&family=Playfair+Display&family=Roboto&family=Rufina&display=swap");
+  </style>
+</head>
+<title>Pagamento</title>
+<body>
+  <header>
+    <div id="header-left">
+      <img id="header-logo" src="logo.svg" />
+    </div>
+    <div id="header-right">
+      <div>Como pedir /</div>
+      <div>Livros /</div>
+      <div>Depoimentos /</div>
+      <div>Videos /</div>
+      <div>Meu carrinho</div>
+    </div>
+  </header>
+  <div id="pedido">
+    <div id="pedido-left">
+      <div id="pedido-left-top">
+        <h2 id="fin">Finalizar pedido</h2>
+        <div id="cart-txt">
+          <div id="img-carts">
+            <img id="green-background" src="cart-green.svg" />
+            <img id="cart" src="cart-white.svg" />
+          </div>
+          <p id="fin-txt">
+            Insira suas informações abaixo e você receberá um e-mail com os
+            detalhes de sua compra. Assim que o pagamento for processado você
+            receberá seu produto em sua casa em até 7 dias úteis.
+          </p>
+        </div>
+      </div>
+      <div id="pedido1">
+        <h2 class="titles">Informações</h2>
+        <div>
+          <button class="btn-txt big-btn">Nome</button>
+          <button class="btn-txt big-btn">E-mail</button>
+        </div>
+      </div>
+      <div id="pedido2">
+        <h2 class="titles">Endereço de entrega</h2>
+        <div>
+          <button class="btn-txt big-btn">CEP</button>
+          <button class="btn-txt big-btn">Rua / Avenida</button>
+        </div>
+        <div>
+          <div>
+            <button class="btn-txt numero-btn">Número</button>
+            <button class="btn-txt medium-btn">Complemento</button>
+          </div>
+          <div>
+            <button class="btn-txt medium-btn">Cidade</button>
+            <button class="btn-txt small-btn">Estado</button>
+          </div>
+        </div>
+      </div>
+      <div id="pedido3">
+        <h2 class="titles">Pagamento</h2>
+        <div>
+          <button class="btn-txt big-btn">Número do cartão</button>
+          <button class="btn-txt big-btn">Nome do titular do cartão</button>
+        </div>
+        <div>
+          <button class="btn-txt medium-btn">Validade</button>
+          <button class="btn-txt small-btn">CVV</button>
+        </div>
+        <div>
+          <button class="btn-txt big-btn">CPF do titular do cartão</button>
+          <button class="btn-txt big-btn">Número de parcelas</button>
+        </div>
+      </div>
+      <button id="finalizar">Finalizar pagamento</button>
+    </div>
+    <div id="pedido-right">
+      <h2 id="titles">Resumo do pedido</h2>
+      <div>
+        <div class="books-quantity">
+          <div class="books-left">
+            <img class="mini-img" src="book-two.svg" />
+            <div class="title-price">
+              <h4 class="title-cart">Sublime</h4>
+              <p class="price">R$ 40,00</p>
+            </div>
+          </div>
+          <div class="x-marks">
+            <i class="fa-solid fa-xmark"></i>
+            <div class="quantity-arrow">
+              <p class="qtd">1 qtd</p>
+              <img class="mini-img" src="arrow-down.svg" />
+            </div>
+          </div>
+        </div>
+        <div class="books-quantity">
+          <div class="books-left">
+            <img src="book-three.svg" />
+            <div class="title-price">
+              <h4 class="title-cart">Delirios</h4>
+              <p class="price">R$ 40,00</p>
+            </div>
+          </div>
+          <div class="x-marks">
+            <i class="fa-solid fa-xmark"></i>
+            <div class="quantity-arrow">
+              <p class="qtd">1 qtd</p>
+              <img class="mini-img" src="arrow-down.svg" />
+            </div>
+          </div>
+        </div>
+        <div class="books-quantity">
+          <div class="books-left">
+            <img src="book-six.svg" />
+            <div class="title-price">
+              <h4 class="title-cart">a bordo da Vida</h4>
+              <p class="price">R$ 40,00</p>
+            </div>
+          </div>
+          <div class="x-marks">
+            <i class="fa-solid fa-xmark"></i>
+            <div class="quantity-arrow">
+              <p class="qtd">1 qtd</p>
+              <img src="arrow-down.svg" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="left-valor">
+          <p class="valor-gray">Valor dos produtos</p>
+          <p class="valor-gray">R$ 120,00</p>
+        </div>
+        <div class="left-valor">
+          <p class="valor-gray">Valor da entrega</p>
+          <p class="valor-gray">R$ 12,00</p>
+        </div>
+        <div class="left-valor">
+          <p class="valor-black">Subtotal</p>
+          <p class="valor-black">R$ 132,00</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <div id="footer">
+      <div id="footer1">
+        <img id="footer-logo" src="logo.svg" />
+      </div>
+      <div id="footer2">
+        <h2>Sao Paulo</h2>
+        <p>Rua Francisco de Queiroz, 1245</p>
+        <p>Cosmopolis</p>
+        <p>Telefone: (11)99856-0987</p>
+      </div>
+      <div id="footer3">
+        <h2>Redes sociais</h2>
+        <div id="social-links">
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-whatsapp"></i>
+          <i class="fa-brands fa-instagram"></i>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
