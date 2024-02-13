@@ -11,6 +11,10 @@ font-family: 'Rufina', serif;
 */
 body {
   background-color: rgba(246, 246, 246, 255);
+  margin: 0;
+}
+html {
+  margin: 0;
 }
 p {
   font-family: "Oxygen", sans-serif;
@@ -22,20 +26,110 @@ h4 {
   font-family: "Rufina", serif;
   color: black;
 }
+#header-img {
+  display: flex;
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 940px;
+  left: 400px;
+}
 #header {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  background-image: url(http://127.0.0.1:5500/background-green.svg);
-  background-repeat: no-repeat;
-  width: 1060.85px;
-  height: 1189.76px;
-  top: 239.85px;
-  left: 2179.11px;
+  justify-content: space-evenly;
+  padding-top: 2%;
 }
 #header-right {
   display: flex;
   flex-direction: row;
+  font-family: "Oxygen", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  gap: 2px;
+}
+#header-left {
+  padding-right: 20%;
+}
+#part-one-txt1 {
+  font-family: "Oxygen", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  opacity: 50%;
+}
+#part-one-txt2 {
+  font-family: "Oxygen", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+  opacity: 50%;
+}
+#part-one-header1 {
+  font-family: "Rufina", serif;
+  font-size: 82px;
+  font-weight: 700;
+  line-height: 101px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin: 0;
+}
+.links {
+  padding-right: 15px;
+}
+#sign-in {
+  font-family: "Oxygen", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: center;
+  border: none;
+  background-color: var(--green);
+  height: 50px;
+  width: 30%;
+  border-top-right-radius: 9px;
+  border-bottom-right-radius: 9px;
+  color: white;
+}
+input {
+  font-family: "Oxygen", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: start;
+  box-shadow: 0px 5px 30px 0px #0000001a;
+  border: none;
+  opacity: 50%;
+  height: 50px;
+  width: 70%;
+}
+#label-div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+label {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 15%;
+}
+#mail-label {
+  background-color: #ffffff;
+  padding: 20px 10px 14px 10px;
+  border-top-left-radius: 9px;
+  border-bottom-left-radius: 9px;
+  box-shadow: 110px 100px 80px 0px #0000001a;
 }
 .img-divs {
   background-color: var(--green);
@@ -50,20 +144,25 @@ h4 {
 #part-one {
   display: flex;
   flex-direction: row;
+  padding-left: 10%;
 }
 #part-one-left {
-  width: 40%;
+  width: 35%;
+  margin-top: 18%;
 }
 #book-img1 {
   display: flex;
   position: relative;
-  top: 150px;
+  top: 180px;
+  right: 80px;
 }
+
 #part-two-parent {
   display: flex;
   justify-content: center;
   border-radius: 5%;
   box-shadow: 10px gray;
+  margin-top: 40%;
 }
 #part-two {
   display: flex;
