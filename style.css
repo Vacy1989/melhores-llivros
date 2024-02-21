@@ -523,15 +523,6 @@ footer {
     width: 100%;
     margin-top: 10%;
   }
-  /*
-  #part-one-right {
-    position: absolute;
-    width: 450px;
-    object-fit: fill;
-    top: 70px;
-    left: 260px;
-  }
-  */
   #part-one-right {
     width: 70%;
   }

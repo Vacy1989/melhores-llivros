@@ -392,9 +392,131 @@ footer {
   letter-spacing: 0em;
   text-align: left;
 }
+#mobile-cart {
+  display: none;
+}
 #footer-logo {
   padding-top: 20%;
 }
 #social-links i {
   color: #00d276;
+}
+#img-sublime-mobile {
+  display: none;
+}
+@media screen and (max-width: 600px) {
+  html {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: rgba(246, 246, 246, 255);
+  }
+  header {
+    justify-content: space-between;
+    padding: 5% 2%;
+  }
+  #header-right {
+    display: none;
+  }
+  #mobile-cart {
+    display: flex;
+  }
+  #back-left {
+    display: none;
+  }
+  #sublime-div {
+    flex-direction: column;
+    height: auto;
+  }
+  #sublime-txt {
+    width: 95%;
+    padding-left: 2%;
+  }
+  .characteristics-right {
+    justify-content: end;
+    display: flex;
+  }
+  #right-last {
+    margin-left: 45%;
+    width: 100%;
+  }
+  #price {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: right;
+  }
+  #section2 {
+    width: 100%;
+    margin-top: 100%;
+  }
+  #girl-reading {
+    display: none;
+  }
+  #section2-title {
+    display: flex;
+    flex-direction: column;
+  }
+  #section2-text img {
+    display: none;
+  }
+  #title-sublime {
+    display: flex;
+    flex-direction: column;
+  }
+  #characteristics {
+    display: flex;
+    flex-direction: column;
+  }
+  #img-sublime-mobile {
+    display: flex;
+    width: 237px;
+    height: 166px;
+    padding-left: 25%;
+  }
+  #main {
+    display: flex;
+    flex-direction: column;
+  }
+  #girl-section3 {
+    display: none;
+  }
+  #sinopse {
+    margin-top: 50%;
+    padding-left: 0;
+  }
+  #book-title {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  #buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+  #green-background {
+    width: 100%;
+    margin-top: 5%;
+  }
+  #green-letters {
+    width: 100%;
+    margin-top: 5%;
+    margin-left: 0;
+  }
+  #text-only {
+    width: 90%;
+  }
+  #section3 {
+    background: none;
+  }
+  #section3-text img {
+    display: none;
+  }
 }
