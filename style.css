@@ -780,3 +780,11 @@ footer {
     padding-bottom: 10%;
   }
 }
+@media screen and (min-device-width: 370px) and (max-device-width: 420px) {
+  input {
+    width: 290px;
+  }
+  #sign-in {
+    width: 345px;
+  }
+}
